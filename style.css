@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f8f8;
+  color: #333;
+  margin: 0;
+  padding: 1rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dark-mode {
+  background: #121212;
+  color: #f1f1f1;
+}
+
+button {
+  margin: 0.2rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.faq-answer {
+  display: none;
+  margin: 0.5rem 0;
+}
+
+.faq.open .faq-answer {
+  display: block;
+}
+
+.error {
+  color: red;
+  font-size: 0.9rem;
+}
+
+.success {
+  color: green;
+  font-weight: bold;
+}
